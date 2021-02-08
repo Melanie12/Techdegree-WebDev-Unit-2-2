@@ -1,0 +1,257 @@
+body {
+	font-family : "Open Sans", sans serif;
+	text-align : center;
+	background-color:#f4f4f4;
+}
+
+h3 {
+text-transform : uppercase;
+    padding-top: 40px;
+    margin-bottom: 35px;
+}
+
+h2 {
+font-weight :600;
+}
+
+a {
+text-decoration : none;	
+color : #4b4b4b;
+text-transform : uppercase;
+font-weight:700;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+ul{
+padding-left:0px
+}
+
+li {
+background-color:white;
+display: block;
+margin-bottom: 5px;
+padding-top :10px;
+padding-bottom :10px;
+}
+nav{
+text-align:center;
+}
+
+#profile-photo{
+width:65%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+#intro {
+color :#636363;
+margin-bottom :10px;
+}
+
+.introduction{
+padding-left:20px;
+padding-right:20px;
+}
+
+#portfolio {
+color :#636363;
+margin-top:30px;
+background-color:white;	
+padding-bottom:50px;
+}
+
+.portfolio-photo {
+width: 90%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+#skills {
+	padding-top: 20Px;
+    padding-bottom: 20px;
+background-color:#9bc9f3;
+}
+
+#skills h3 {
+color:white;
+}
+
+.codingskills {
+display:block;
+text-align:center;
+font-weight:600;
+color:white;
+}
+.skills-image{
+	width:33%;
+}
+
+
+.final-words{
+display:block;
+float:left;
+margin-top:10px;
+padding-left:10px;
+margin-bottom:0px;
+padding-bottom:20px;
+font-weight:700;
+}
+
+a.final-words{
+float:right;
+}
+
+
+a.tablet {
+visibility:hidden;
+}
+
+#contact-info {
+	color :#636363;
+margin-bottom :50px;
+}
+
+/*Media Queries Tablet------------------------------------ */
+@media (min-width:768px) {
+#intro {
+overflow:auto;
+padding-left:20px;
+padding-right:20Px;
+}
+
+
+li{
+display:inline;
+padding-left:40px;
+background-color:#f4f4f4;
+}	
+
+nav {
+margin-bottom:55px;
+}
+
+#profile-photo{
+display:block;
+float:right;
+width:50%;
+margin-bottom:40px;
+}
+
+p.introduction {
+padding-left:0px;
+padding-right :0px;
+}
+	
+.introduction {
+display:block;
+float:left;
+width:50%;
+text-align: left;
+}
+
+#portfolio {
+clear:both;
+overflow:auto;
+padding-top : 20px;
+padding-left:5px;
+padding-right:5Px;
+}
+
+.col {
+display:inline-block;
+width:50%;
+float:left;
+}
+
+
+.codingskills {
+	display:inline-block;
+	width:30%;
+}
+
+footer{
+clear:both;
+color :#636363;
+}
+
+footer p {
+padding-left:80px;
+padding-right:80px;
+}
+
+.final-words {
+margin-bottom:30px;
+}
+
+#tablet {
+display:inline;
+float:right;
+margin-left: 35px;
+}
+a.final-words{
+padding-right:15px;	
+float:left;
+}
+
+a.tablet {
+visibility:visible;
+}
+
+.mobile {
+visibility:hidden;
+}
+
+}
+
+/*Media Queries Desktop------------------------------------ */
+@media (min-width:1024px) {
+
+#intro {
+	padding-left:30px;
+	padding-right:35px;
+}
+
+ul {
+margin-top:30px;
+display:inline-block;
+float:right;
+}
+
+p.introduction {
+width:45%;
+}
+
+.name {
+float:left;
+}
+
+#profile-photo {
+	clear:both;
+}
+
+.col {
+display:inline-block;
+width:33%;
+float : left;
+}
+
+
+#tablet {
+display:inline-block;
+float:right;
+margin-left: 70px;
+padding-right:7px;
+}
+
+#contact-info {
+margin-bottom :50px;
+}
+
+}
+
+
